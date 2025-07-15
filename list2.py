@@ -54,8 +54,7 @@ class LinkedList:
 
 		current_node.next = new_node
 
-	# Update node of a linked list
-		# at given position
+	# Update node of a linked list at given position
 	def updateNode(self, val, index):
 		current_node = self.head
 		position = 0
